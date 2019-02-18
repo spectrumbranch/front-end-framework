@@ -37,3 +37,15 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Vue-Cli dashboard
+
+One Time Setup
+```
+npm install -g @vue/cli
+```
+
+Run Dashboard
+```
+npm run dashboard
+```

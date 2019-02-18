@@ -1,11 +1,15 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>
+      <font-awesome-icon icon="user-secret" />
+        {{ msg }}
+      </h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
+    <bootstrap-carousel-example></bootstrap-carousel-example>
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
@@ -16,6 +20,7 @@
     <h3>Essential Links</h3>
     <ul>
       <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
+      <li><a href="https://github.com/FortAwesome/vue-fontawesome" target="_blank" rel="noopener">Vue Font Awesome</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
       <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
       <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
@@ -33,8 +38,11 @@
 </template>
 
 <script>
+import BootstrapCarouselExample from '@/components/BootstrapCarouselExample.vue'
+
 export default {
   name: 'HelloWorld',
+  components: { BootstrapCarouselExample },
   props: {
     msg: String
   }

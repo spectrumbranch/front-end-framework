@@ -16,3 +16,11 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="less">
+@import '~../less/variables.less';
+
+.home {
+    background: linear-gradient(to bottom, @bgcolor, white);
+}
+</style>
