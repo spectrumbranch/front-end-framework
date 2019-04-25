@@ -16,7 +16,6 @@
     "@fortawesome/free-regular-svg-icons": "^5.8.1",
     "@fortawesome/free-solid-svg-icons": "^5.8.1",
     "@fortawesome/vue-fontawesome": "^0.1.6",
-    "@hapi/hoek": "^6.2.1",
     "bootstrap-vue": "^2.0.0-rc.19",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6",
