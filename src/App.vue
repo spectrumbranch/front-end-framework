@@ -7,10 +7,10 @@
 </template>
 
 <script>
-  import Navigation from '@/components/Navigation'
-  import TheFooter from '@/components/TheFooter'
+import Navigation from '@/components/Navigation'
+import TheFooter from '@/components/TheFooter'
   
-  export default {
+export default {
   name: 'app',
   components: {
     Navigation,
